@@ -1,0 +1,17 @@
+ 
+ Player{name='Vadym', win=0, lost=0, ties=1} 
+ ничья по очкам 
+ Player{name='Vadym', win=0, lost=0, ties=2} 
+ ничья по очкам 
+ Player{name='Vadym', win=1, lost=0, ties=0} 
+ По очкам победил игрок 
+ Player{name='Vadym', win=1, lost=0, ties=1} 
+ По очкам победил игрок 
+ Player{name='Vadym', win=2, lost=0, ties=1} 
+ По очкам победил игрок 
+ Player{name='Vadym', win=0, lost=1, ties=0} 
+ По очкам компьтер победил 
+ Player{name='Vadym', win=0, lost=1, ties=1} 
+ По очкам компьтер победил 
+ Player{name='Vadym', win=0, lost=1, ties=2} 
+ По очкам компьтер победил
