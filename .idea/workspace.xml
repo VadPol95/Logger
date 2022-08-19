@@ -4,23 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a965aa75-d75b-4fe2-8810-00e04a80244a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/resourceBundles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vadpol/util/Localization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Locale.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Locale_de.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Locale_en.properties" afterDir="false" />
+    <list default="true" id="a965aa75-d75b-4fe2-8810-00e04a80244a" name="Changes" comment="Localization">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoggerPracticee/logs/info/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/LoggerPracticee/logs/info/info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoggerPracticee/logs/warn/warn.log" beforeDir="false" afterPath="$PROJECT_DIR$/LoggerPracticee/logs/warn/warn.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vadpol/RunApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vadpol/RunApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vadpol/game/StartGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vadpol/game/StartGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vadpol/util/CheckResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vadpol/util/CheckResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vadpol/util/Hand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vadpol/util/Hand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vadpol/util/PlayGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vadpol/util/PlayGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vadpol/util/Winner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vadpol/util/Winner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,8 +113,17 @@
       <workItem from="1660852925385" duration="791000" />
       <workItem from="1660853737775" duration="379000" />
       <workItem from="1660854134760" duration="789000" />
-      <workItem from="1660892688046" duration="1375000" />
+      <workItem from="1660892688046" duration="1670000" />
+      <workItem from="1660894483619" duration="16000" />
     </task>
+    <task id="LOCAL-00001" summary="Localization">
+      <created>1660894355705</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1660894355705</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,5 +139,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Localization" />
+    <option name="LAST_COMMIT_MESSAGE" value="Localization" />
   </component>
 </project>
