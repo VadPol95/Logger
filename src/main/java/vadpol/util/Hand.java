@@ -2,13 +2,15 @@ package vadpol.util;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import vadpol.game.StartGame;
 
 import java.io.IOException;
 
 public class Hand {
-    private static final Logger LOGGER_ERROR = LoggerFactory.getLogger("logger.error");
+    private static String[] arg;
+//    private static final Logger LOGGER_ERROR = LoggerFactory.getLogger("logger.error");
     public static int giveHand() throws IOException {
-        System.out.println("Rock, Paper or Scissors");
+        System.out.println(Localization.getResourceBundle(arg).getString("rps"));
         String hand = Helper.getString();
         int handNum;
 
@@ -20,8 +22,8 @@ public class Hand {
         } else if (hand.equalsIgnoreCase("P")) {
             handNum = 2;
         } else {
-            LOGGER_ERROR.error("User enter incorrect value");
-            throw new IllegalStateException("Unexpected value: " + hand);
+//            LOGGER_ERROR.error("User enter incorrect value");
+            throw new IllegalStateException(Localization.getResourceBundle(arg).getString("ex1") + hand);
         }
 
         return handNum;
@@ -43,8 +45,8 @@ public class Hand {
                 hand = "Paper";
                 break;
             default:
-                LOGGER_ERROR.error("User enter incorrect value");
-                throw new IllegalStateException(" Invalid enter, try again");
+//                LOGGER_ERROR.error("User enter incorrect value");
+                throw new IllegalStateException(Localization.getResourceBundle(arg).getString("ex2"));
 
         }
         return hand;
@@ -66,9 +68,12 @@ public class Hand {
                 break;
 
             default:
-                throw new IllegalStateException("Unexpected value: " + pcHand);
+                throw new IllegalStateException(Localization.getResourceBundle(arg).getString("ex1") + pcHand);
         }
         return hand;
+    }
+    public static void getArg(String[] args){
+        arg = args;
     }
 
     public static int giveComputerHand() {

@@ -14,4 +14,8 @@
  Player{name='Vadym', win=0, lost=1, ties=1} 
  По очкам компьтер победил 
  Player{name='Vadym', win=0, lost=1, ties=2} 
- По очкам компьтер победил
+ По очкам компьтер победил 
+ Player{name='v', win=1, lost=0, ties=0} 
+ Player wins on points 
+ Player{name='v', win=0, lost=1, ties=0} 
+ Computer gewinnt nach Punkten
